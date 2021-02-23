@@ -1,0 +1,19 @@
+baseURL = "http://blog.evanko.dev/"
+theme = "hugo-bearblog"
+languageCode = "en-us"
+
+title = "Justin Evankovich - Blog"
+author = "Justin Evankovich"
+copyright = "Copyright 2020, Justin Evankovich."
+
+enableRobotsTXT = true
+
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  description = "Where I write about projects"
