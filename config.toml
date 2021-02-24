@@ -2,9 +2,23 @@ baseURL = "http://blog.evanko.dev/"
 theme = "hugo-bearblog"
 languageCode = "en-us"
 
-title = "Justin Evankovich - Blog"
+title = "Justin Evankovich"
 author = "Justin Evankovich"
 copyright = "Copyright 2020, Justin Evankovich."
+
+[menu]
+  [[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/jevankovich"
+  # [[menu.main]]
+  #   identifier = "gitea"
+  #   name = "Gitea"
+  #   url = "https://git.evanko.dev"
+  [[menu.main]]
+    identifier = "tindie"
+    name = "Tindie"
+    url = "https://www.tindie.com/stores/jevankovich/"
 
 enableRobotsTXT = true
 
